@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE317D21D25099A0061022B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE317D11D25099A0061022B /* AppDelegate.swift */; };
+		ACE317D41D25099A0061022B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE317D31D25099A0061022B /* ViewController.swift */; };
+		ACE317D71D25099A0061022B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE317D51D25099A0061022B /* Main.storyboard */; };
+		ACE317D91D25099B0061022B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE317D81D25099B0061022B /* Assets.xcassets */; };
+		ACE317DC1D25099B0061022B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE317DA1D25099B0061022B /* LaunchScreen.storyboard */; };
+		ACE317E71D25099B0061022B /* AcoutisBeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE317E61D25099B0061022B /* AcoutisBeatTests.swift */; };
+		ACE317F21D25099B0061022B /* AcoutisBeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE317F11D25099B0061022B /* AcoutisBeatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE317E31D25099B0061022B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE317C61D25099A0061022B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE317CD1D25099A0061022B;
+			remoteInfo = AcoutisBeat;
+		};
+		ACE317EE1D25099B0061022B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE317C61D25099A0061022B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE317CD1D25099A0061022B;
+			remoteInfo = AcoutisBeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE317CE1D25099A0061022B /* AcoutisBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcoutisBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE317D11D25099A0061022B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE317D31D25099A0061022B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE317D61D25099A0061022B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE317D81D25099B0061022B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE317DB1D25099B0061022B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE317DD1D25099B0061022B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE317E21D25099B0061022B /* AcoutisBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcoutisBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE317E61D25099B0061022B /* AcoutisBeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoutisBeatTests.swift; sourceTree = "<group>"; };
+		ACE317E81D25099B0061022B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE317ED1D25099B0061022B /* AcoutisBeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcoutisBeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE317F11D25099B0061022B /* AcoutisBeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoutisBeatUITests.swift; sourceTree = "<group>"; };
+		ACE317F31D25099B0061022B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE317CB1D25099A0061022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317DF1D25099B0061022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317EA1D25099B0061022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE317C51D25099A0061022B = {
+			isa = PBXGroup;
+			children = (
+				ACE317D01D25099A0061022B /* AcoutisBeat */,
+				ACE317E51D25099B0061022B /* AcoutisBeatTests */,
+				ACE317F01D25099B0061022B /* AcoutisBeatUITests */,
+				ACE317CF1D25099A0061022B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE317CF1D25099A0061022B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE317CE1D25099A0061022B /* AcoutisBeat.app */,
+				ACE317E21D25099B0061022B /* AcoutisBeatTests.xctest */,
+				ACE317ED1D25099B0061022B /* AcoutisBeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE317D01D25099A0061022B /* AcoutisBeat */ = {
+			isa = PBXGroup;
+			children = (
+				ACE317D11D25099A0061022B /* AppDelegate.swift */,
+				ACE317D31D25099A0061022B /* ViewController.swift */,
+				ACE317D51D25099A0061022B /* Main.storyboard */,
+				ACE317D81D25099B0061022B /* Assets.xcassets */,
+				ACE317DA1D25099B0061022B /* LaunchScreen.storyboard */,
+				ACE317DD1D25099B0061022B /* Info.plist */,
+			);
+			path = AcoutisBeat;
+			sourceTree = "<group>";
+		};
+		ACE317E51D25099B0061022B /* AcoutisBeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE317E61D25099B0061022B /* AcoutisBeatTests.swift */,
+				ACE317E81D25099B0061022B /* Info.plist */,
+			);
+			path = AcoutisBeatTests;
+			sourceTree = "<group>";
+		};
+		ACE317F01D25099B0061022B /* AcoutisBeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE317F11D25099B0061022B /* AcoutisBeatUITests.swift */,
+				ACE317F31D25099B0061022B /* Info.plist */,
+			);
+			path = AcoutisBeatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE317CD1D25099A0061022B /* AcoutisBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE317F61D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeat" */;
+			buildPhases = (
+				ACE317CA1D25099A0061022B /* Sources */,
+				ACE317CB1D25099A0061022B /* Frameworks */,
+				ACE317CC1D25099A0061022B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcoutisBeat;
+			productName = AcoutisBeat;
+			productReference = ACE317CE1D25099A0061022B /* AcoutisBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE317E11D25099B0061022B /* AcoutisBeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE317F91D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeatTests" */;
+			buildPhases = (
+				ACE317DE1D25099B0061022B /* Sources */,
+				ACE317DF1D25099B0061022B /* Frameworks */,
+				ACE317E01D25099B0061022B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE317E41D25099B0061022B /* PBXTargetDependency */,
+			);
+			name = AcoutisBeatTests;
+			productName = AcoutisBeatTests;
+			productReference = ACE317E21D25099B0061022B /* AcoutisBeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE317EC1D25099B0061022B /* AcoutisBeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE317FC1D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeatUITests" */;
+			buildPhases = (
+				ACE317E91D25099B0061022B /* Sources */,
+				ACE317EA1D25099B0061022B /* Frameworks */,
+				ACE317EB1D25099B0061022B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE317EF1D25099B0061022B /* PBXTargetDependency */,
+			);
+			name = AcoutisBeatUITests;
+			productName = AcoutisBeatUITests;
+			productReference = ACE317ED1D25099B0061022B /* AcoutisBeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE317C61D25099A0061022B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LongND9;
+				TargetAttributes = {
+					ACE317CD1D25099A0061022B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ACE317E11D25099B0061022B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACE317CD1D25099A0061022B;
+					};
+					ACE317EC1D25099B0061022B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACE317CD1D25099A0061022B;
+					};
+				};
+			};
+			buildConfigurationList = ACE317C91D25099A0061022B /* Build configuration list for PBXProject "AcoutisBeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE317C51D25099A0061022B;
+			productRefGroup = ACE317CF1D25099A0061022B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE317CD1D25099A0061022B /* AcoutisBeat */,
+				ACE317E11D25099B0061022B /* AcoutisBeatTests */,
+				ACE317EC1D25099B0061022B /* AcoutisBeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE317CC1D25099A0061022B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE317DC1D25099B0061022B /* LaunchScreen.storyboard in Resources */,
+				ACE317D91D25099B0061022B /* Assets.xcassets in Resources */,
+				ACE317D71D25099A0061022B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317E01D25099B0061022B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317EB1D25099B0061022B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE317CA1D25099A0061022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE317D41D25099A0061022B /* ViewController.swift in Sources */,
+				ACE317D21D25099A0061022B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317DE1D25099B0061022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE317E71D25099B0061022B /* AcoutisBeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE317E91D25099B0061022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE317F21D25099B0061022B /* AcoutisBeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE317E41D25099B0061022B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE317CD1D25099A0061022B /* AcoutisBeat */;
+			targetProxy = ACE317E31D25099B0061022B /* PBXContainerItemProxy */;
+		};
+		ACE317EF1D25099B0061022B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE317CD1D25099A0061022B /* AcoutisBeat */;
+			targetProxy = ACE317EE1D25099B0061022B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE317D51D25099A0061022B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE317D61D25099A0061022B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE317DA1D25099B0061022B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE317DB1D25099B0061022B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE317F41D25099B0061022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE317F51D25099B0061022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE317F71D25099B0061022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcoutisBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE317F81D25099B0061022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcoutisBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE317FA1D25099B0061022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AcoutisBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcoutisBeat.app/AcoutisBeat";
+			};
+			name = Debug;
+		};
+		ACE317FB1D25099B0061022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AcoutisBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcoutisBeat.app/AcoutisBeat";
+			};
+			name = Release;
+		};
+		ACE317FD1D25099B0061022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AcoutisBeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AcoutisBeat;
+			};
+			name = Debug;
+		};
+		ACE317FE1D25099B0061022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AcoutisBeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.m.AcoutisBeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AcoutisBeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE317C91D25099A0061022B /* Build configuration list for PBXProject "AcoutisBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE317F41D25099B0061022B /* Debug */,
+				ACE317F51D25099B0061022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE317F61D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE317F71D25099B0061022B /* Debug */,
+				ACE317F81D25099B0061022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE317F91D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE317FA1D25099B0061022B /* Debug */,
+				ACE317FB1D25099B0061022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE317FC1D25099B0061022B /* Build configuration list for PBXNativeTarget "AcoutisBeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE317FD1D25099B0061022B /* Debug */,
+				ACE317FE1D25099B0061022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE317C61D25099A0061022B /* Project object */;
+}
